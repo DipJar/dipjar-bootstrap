@@ -14,10 +14,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@font-face
+@font-face {
   font-family: 'AvenirNextLTPro-Bold';
   src: url('/css/avenir_pro_bold.eot');
   src: url('/css/avenir_pro_bold.eot?#iefix') format('embedded-opentype'), url('/css/avenir_pro_bold.woff2') format('woff2'), url('/css/avenir_pro_bold.woff') format('woff'), url('/css/avenir_pro_bold.ttf') format('truetype');
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
