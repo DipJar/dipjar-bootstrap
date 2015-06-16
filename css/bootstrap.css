@@ -16,8 +16,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @font-face {
   font-family: 'AvenirNextLTPro-Bold';
-  src: url('/fonts/avenir_pro_bold.eot');
-  src: url('/fonts/avenir_pro_bold.eot?#iefix') format('embedded-opentype'), url('/fonts/avenir_pro_bold.woff2') format('woff2'), url('/fonts/avenir_pro_bold.woff') format('woff'), url('/fonts/avenir_pro_bold.ttf') format('truetype');
+  src: url('fonts/avenir_pro_bold.eot');
+  src: url('fonts/avenir_pro_bold.eot?#iefix') format('embedded-opentype'), url('fonts/avenir_pro_bold.woff2') format('woff2'), url('fonts/avenir_pro_bold.woff') format('woff'), url('fonts/avenir_pro_bold.ttf') format('truetype');
 }
 html {
   -ms-text-size-adjust: 100%;
