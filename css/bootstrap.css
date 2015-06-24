@@ -3042,7 +3042,7 @@ select[multiple].input-lg {
   background-image: none;
   border: none;
   white-space: nowrap;
-  padding: 6px 12px;
+  padding: 6px 12px 4px;
   font-size: 14px;
   line-height: 1.42857143;
   border-radius: 0;
@@ -3521,21 +3521,21 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 10px 16px;
+  padding: 10px 16px 8px;
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 0;
 }
 .btn-sm,
 .btn-group-sm > .btn {
-  padding: 5px 10px;
+  padding: 5px 10px 3px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 0;
 }
 .btn-xs,
 .btn-group-xs > .btn {
-  padding: 1px 5px;
+  padding: 1px 5px 0;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 0;
@@ -4960,7 +4960,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .label {
   display: inline;
-  padding: .2em .6em .2em;
+  padding: .2em .6em .1em;
   font-size: 75%;
   line-height: 1.75em;
   color: #ffffff;
@@ -4968,6 +4968,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   white-space: nowrap;
   vertical-align: baseline;
   text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: AvenirBold;
 }
 a.label:hover,
 a.label:focus {
