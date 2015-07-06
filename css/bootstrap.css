@@ -205,9 +205,12 @@ table {
 }
 td,
 th {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
   padding: 0;
+}
+th {
+  font-family: AvenirBold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1116,12 +1119,12 @@ textarea {
 }
 a {
   color: #555555;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
   color: #333333;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -1217,8 +1220,9 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: AvenirBold;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.09em;
 }
 h1 small,
 h2 small,
@@ -2543,6 +2547,8 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: AvenirBold;
+  letter-spacing: 0.08em;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -3224,18 +3230,18 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #4BCF62;
+  background-color: #48bd9f;
   border-color: transparent;
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #ffffff;
-  background-color: #26C542;
+  background-color: #269b7d;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-success:hover {
   color: #ffffff;
-  background-color: #26C542;
+  background-color: #269b7d;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-success:active,
@@ -3361,19 +3367,19 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-warning:focus,
 .btn-warning.focus {
-  color: #555555;
+  color: #fff;
   background-color: #d0ac3f;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-warning:hover {
-  color: #555555;
+  color: #fff;
   background-color: #d0ac3f;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
-  color: #555555;
+  color: #fff;
   background-color: #d0ac3f;
   border-color: rgba(0, 0, 0, 0);
 }
@@ -3386,7 +3392,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning:active.focus,
 .btn-warning.active.focus,
 .open > .dropdown-toggle.btn-warning.focus {
-  color: #555555;
+  color: #fff;
   background-color: #bd9a2e;
   border-color: rgba(0, 0, 0, 0);
 }
@@ -4107,6 +4113,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs {
   border-bottom: 1px solid #222222;
 }
+.nav-tabs a {
+  text-decoration: none;
+}
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
@@ -4175,6 +4184,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a:focus {
     border-bottom-color: #ebebeb;
   }
+}
+.nav-pills a {
+  text-decoration: none;
 }
 .nav-pills > li {
   float: left;
@@ -4263,6 +4275,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 80px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+}
+.navbar a {
+  text-decoration: none;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4999,11 +5014,11 @@ a.label:focus {
   background-color: #008899;
 }
 .label-success {
-  background-color: #4BCF62;
+  background-color: #48bd9f;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #26C542;
+  background-color: #269b7d;
 }
 .label-info {
   background-color: #05667c;
@@ -5384,6 +5399,7 @@ a.thumbnail.active {
 a.list-group-item,
 button.list-group-item {
   color: #05667C;
+  text-decoration: none;
 }
 a.list-group-item .list-group-item-heading,
 button.list-group-item .list-group-item-heading {
@@ -5577,7 +5593,6 @@ button.list-group-item-danger.active:focus {
 }
 .panel-body {
   padding: 15px;
-  font-family: AvenirDemi;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -5840,18 +5855,18 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #00b5cc;
 }
 .panel-success {
-  border-color: #4BCF62;
+  border-color: #48bd9f;
 }
 .panel-success > .panel-heading {
   color: #ffffff;
-  background-color: #4BCF62;
+  background-color: #48bd9f;
   border-color: transparent;
 }
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: transparent;
 }
 .panel-success > .panel-heading .badge {
-  color: #4BCF62;
+  color: #48bd9f;
   background-color: #ffffff;
 }
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
@@ -5946,7 +5961,6 @@ button.list-group-item-danger.active:focus {
   border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  font-family: AvenirDemi;
 }
 .well blockquote {
   border-color: #ddd;
