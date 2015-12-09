@@ -1,0 +1,14 @@
+{
+  "name": "dipjar-bootstrap",
+  "description": "Bootstrap theme for DipJar",
+  "main": [
+    "js/bootstrap.min.js",
+    "css/dj-bootstrap.css"
+  ],
+  "moduleType": "globals",
+  "ignore": [
+    "config.json",
+    "README.md"
+  ],
+  "private": true
+}
