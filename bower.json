@@ -9,6 +9,5 @@
   "ignore": [
     "config.json",
     "README.md"
-  ],
-  "private": true
+  ]
 }
