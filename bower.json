@@ -2,7 +2,7 @@
   "name": "dipjar-bootstrap",
   "description": "Bootstrap theme for DipJar",
   "main": [
-    "js/bootstrap.min.js",
+    "js/bootstrap.js",
     "css/dj-bootstrap.css"
   ],
   "moduleType": "globals",
